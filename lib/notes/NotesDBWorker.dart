@@ -28,7 +28,7 @@ class NotesDBWorker {
           "id INTEGER PRIMARY KEY,"
           "title TEXT,"
           "content TEXT,"
-          "color TEXT,"
+          "color TEXT"
           ")",
         );
       },
