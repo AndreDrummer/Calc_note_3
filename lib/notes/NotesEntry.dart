@@ -61,6 +61,7 @@ class NotesEntry extends StatelessWidget {
                     child: Text('Cancel'),
                     onPressed: () {
                       FocusScope.of(inContext).requestFocus(FocusNode());
+                      inModel.setStackIndex(0);
                     },
                   ),
                   FlatButton(
